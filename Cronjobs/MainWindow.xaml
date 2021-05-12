@@ -1,0 +1,32 @@
+﻿<Window x:Class="Cronjobs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cronjobs"
+        mc:Ignorable="d"
+        Title="Cron Jobs" 
+        Height="450" Width="800"  
+        Closing="Window_Closing" 
+        Visibility="Hidden"
+        >
+
+    <Grid>
+        <ListView x:Name="cronlist" Margin="10,50,10,10" SelectionMode="Extended">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="40" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="Path" Width="350" DisplayMemberBinding="{Binding Path=FilePath}"/>
+                    <GridViewColumn Header="Last Run Date" Width="100" DisplayMemberBinding="{Binding Path=LastRunDate, StringFormat='HH:mm:ss'}"/>
+                    <GridViewColumn Header="Next Run Date" Width="100" DisplayMemberBinding="{Binding Path=NextRunDate, StringFormat='HH:mm:ss'}"/>
+                    <GridViewColumn Header="Min" Width="40" DisplayMemberBinding="{Binding DelayMin}"/>
+                    <GridViewColumn Header="Max" Width="40" DisplayMemberBinding="{Binding DelayMax}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnRunSelecteds" Content="Run Selecteds" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="117" Height="30" />
+        <Button x:Name="btnCreate" Content="Create New Cron" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="117" Height="30" />
+
+    </Grid>
+</Window>

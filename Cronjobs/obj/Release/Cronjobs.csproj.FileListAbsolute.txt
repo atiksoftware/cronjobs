@@ -1,0 +1,17 @@
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\bin\Release\Cronjobs.exe.config
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\bin\Release\Cronjobs.exe
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\bin\Release\Cronjobs.pdb
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.csprojAssemblyReference.cache
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Editor.g.cs
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\MainWindow.g.cs
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\App.g.cs
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs_MarkupCompile.cache
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs_MarkupCompile.lref
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Editor.baml
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\MainWindow.baml
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.g.resources
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.Properties.Resources.resources
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.csproj.GenerateResource.cache
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.csproj.CoreCompileInputs.cache
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.exe
+C:\Users\Amiral\source\repos\Cronjobs\Cronjobs\obj\Release\Cronjobs.pdb
